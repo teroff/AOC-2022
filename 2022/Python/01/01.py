@@ -65,4 +65,5 @@ def get_sum_of_top_n_elfs(calories_list: list, n: int) -> int:
 
 
 if __name__ == '__main__':
-    print(get_sum_of_top_n_elfs(build_2d_array_from_file('01.txt'), 1))
+    print(f"The top Elf carries {get_sum_of_top_n_elfs(build_2d_array_from_file('01.txt'), 1)} calories")
+    print(f"The top three Elves carry {get_sum_of_top_n_elfs(build_2d_array_from_file('01.txt'), 3)} calories")
